@@ -1,61 +1,141 @@
-# comandos-git
+# 📁 Comandos Git
 
-git init => criar um novo repositorio vazio dentro da pasta
+Este repositório contém anotações úteis sobre comandos Git, links de referência e soluções para erros comuns.
 
+---
+
+## 📦 Inicializando Repositório
+
+```bash
+git init
+```
+
+Cria um novo repositório vazio dentro da pasta.
+
+---
+
+## 📄 Verificando Status
+
+```bash
 git status
+```
 
-<associar endereço remoto (do github) com o endereço do computador>
+Mostra o estado atual do repositório.
 
-git remote add origin <link do repositorio no github>
+---
 
-git add . => adiciona todos os arquivos prontos para a nuvem
+## 🌐 Associando Repositório Remoto
 
-git commit -m "nome do commit"
+```bash
+git remote add origin <link do repositório no GitHub>
+```
 
+Associa o repositório local com o repositório remoto.
+
+---
+
+## ➕ Adicionando Arquivos
+
+```bash
+git add .
+```
+
+Adiciona todos os arquivos para a área de staging.
+
+---
+
+## 💬 Realizando Commit
+
+```bash
+git commit -m "mensagem do commit"
+```
+
+Salva as alterações no repositório local com uma mensagem.
+
+---
+
+## 🚀 Enviando para o GitHub
+
+```bash
 git push origin <branch>
+```
 
--------------------
+Envia as alterações para o repositório remoto na branch especificada.
 
-git pull origin <branch> -> para puxar do github
+---
 
-fork:
-https://docs.github.com/pt/get-started/quickstart/fork-a-repo
+## 🔄 Puxando do GitHub
 
-git clone (para forks ou não):
-https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository
+```bash
+git pull origin <branch>
+```
 
--------------------
+Puxa as alterações do repositório remoto para o local.
 
-trocar branch
+---
 
-https://git-scm.com/docs/git-checkout
-https://pt.stackoverflow.com/questions/411048/como-criar-uma-nova-branch-no-github
+## 🍴 Fork
 
--------------------
-git config 
-https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Configura%C3%A7%C3%A3o-Inicial-do-Git
+[Guia oficial para fazer fork de um repositório](https://docs.github.com/pt/get-started/quickstart/fork-a-repo)
 
-erros:
-Git Error "fatal: invalid branch name: init.defaultBranch ="
-https://stackoverflow.com/questions/64349920/git-error-fatal-invalid-branch-name-init-defaultbranch
+---
 
-! [rejeitado] mestre -> mestre (buscar primeiro)
-https://stackoverflow.com/questions/28429819/rejected-master-master-fetch-first
+## 📥 Clonando Repositório
 
-Resolvendo o erro “fatal: refusing to merge unrelated histories” no Git
-https://community.umbler.com/br/t/resolvendo-o-erro-fatal-refusing-to-merge-unrelated-histories-no-git/657
+[Guia oficial para clonar repositórios](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository)
 
-You have not concluded your merge (MERGE_HEAD exists)
-https://stackoverflow.com/questions/11646107/you-have-not-concluded-your-merge-merge-head-exists
-https://horadecodar.com.br/resolver-o-erro-you-have-not-concluded-your-merge/
+---
 
--------------------
+## 🌿 Trabalhando com Branches
 
-se o commit nao funcionar, tentar:
-https://cursos.alura.com.br/forum/topico-erro-ao-execultar-git-push-74711
+- [git checkout - Documentação oficial](https://git-scm.com/docs/git-checkout)  
+- [Como criar uma nova branch no GitHub - StackOverflow PT](https://pt.stackoverflow.com/questions/411048/como-criar-uma-nova-branch-no-github)
 
-se após a troca de branch local, o commit não funcionar por já haver commit 
-anterior:
-https://stackoverflow.com/questions/28429819/rejected-master-master-fetch-first
+---
 
--------------------
+## ⚙️ Configuração Inicial do Git
+
+[Guia oficial de configuração inicial](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Configura%C3%A7%C3%A3o-Inicial-do-Git)
+
+---
+
+## ❗ Erros Comuns e Soluções
+
+### `fatal: invalid branch name: init.defaultBranch =`
+
+[Solução no StackOverflow](https://stackoverflow.com/questions/64349920/git-error-fatal-invalid-branch-name-init-defaultbranch)
+
+---
+
+### `! [rejeitado] mestre -> mestre (buscar primeiro)`
+
+[Solução no StackOverflow](https://stackoverflow.com/questions/28429819/rejected-master-master-fetch-first)
+
+---
+
+### `fatal: refusing to merge unrelated histories`
+
+[Como resolver na comunidade Umbler](https://community.umbler.com/br/t/resolvendo-o-erro-fatal-refusing-to-merge-unrelated-histories-no-git/657)
+
+---
+
+### `You have not concluded your merge (MERGE_HEAD exists)`
+
+- [Solução no StackOverflow](https://stackoverflow.com/questions/11646107/you-have-not-concluded-your-merge-merge-head-exists)  
+- [Hora de Codar - Solução](https://horadecodar.com.br/resolver-o-erro-you-have-not-concluded-your-merge/)
+
+---
+
+## 🛠️ Outras Dicas
+
+### Commit não funciona?
+
+[Discussão no fórum da Alura](https://cursos.alura.com.br/forum/topico-erro-ao-execultar-git-push-74711)
+
+---
+
+### Commit falha após troca de branch local (já existe commit anterior)
+
+[StackOverflow - rejected master -> master (fetch first)](https://stackoverflow.com/questions/28429819/rejected-master-master-fetch-first)
+
+---
