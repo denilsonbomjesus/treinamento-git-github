@@ -82,11 +82,19 @@ Puxa as alterações do repositório remoto para o local.
 
 ## 📥 Clonando Repositório
 
+```bash
+git clone <link do repositório no GitHub>
+```
+
 [Guia oficial para clonar repositórios](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository)
 
 ---
 
 ## 🌿 Trabalhando com Branches
+
+```bash
+git checkout -b <nome da nova branch>
+```
 
 - [git checkout - Documentação oficial](https://git-scm.com/docs/git-checkout)  
 - [Como criar uma nova branch no GitHub - StackOverflow PT](https://pt.stackoverflow.com/questions/411048/como-criar-uma-nova-branch-no-github)
@@ -94,6 +102,10 @@ Puxa as alterações do repositório remoto para o local.
 ---
 
 ## ⚙️ Configuração Inicial do Git
+
+```bash
+git config --list
+```
 
 [Guia oficial de configuração inicial](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Configura%C3%A7%C3%A3o-Inicial-do-Git)
 
@@ -107,9 +119,11 @@ Puxa as alterações do repositório remoto para o local.
 
 ---
 
-### `! [rejeitado] mestre -> mestre (buscar primeiro)`
+### `![rejected] master -> master (fetch first)`
 
 [Solução no StackOverflow](https://stackoverflow.com/questions/28429819/rejected-master-master-fetch-first)
+
+Commit falha após troca de branch local (já existe commit anterior)
 
 ---
 
@@ -130,12 +144,7 @@ Puxa as alterações do repositório remoto para o local.
 
 ### Commit não funciona?
 
-[Discussão no fórum da Alura](https://cursos.alura.com.br/forum/topico-erro-ao-execultar-git-push-74711)
+[Discussão no fórum da Alura 'Erro ao execultar git push'](https://cursos.alura.com.br/forum/topico-erro-ao-execultar-git-push-74711)
 
 ---
 
-### Commit falha após troca de branch local (já existe commit anterior)
-
-[StackOverflow - rejected master -> master (fetch first)](https://stackoverflow.com/questions/28429819/rejected-master-master-fetch-first)
-
----
