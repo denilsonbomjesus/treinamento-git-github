@@ -179,7 +179,7 @@ Associa o seu repositório local a um repositório remoto no GitHub. O termo **`
 
 **IMPORTANTE:** Verifique se o link utilizado no comando é **exatamente** o mesmo do repositório desejado. Caso haja qualquer diferença, corrija o link para que corresponda integralmente ao endereço correto do repositório.
 
-**IMPORTANTE:** Na maioria dos sistemas operacionais, recomenda-se colar o link no terminal Git Bash utilizando o **mouse**, e não o teclado. No caso do sistema Windows, caso prefira colar utilizando o teclado, utilize a combinação de teclas **Ctrl + Shift + Insert**.
+**IMPORTANTE:** Na maioria dos sistemas operacionais, recomenda-se colar o link no terminal Git Bash utilizando o **mouse**, e não o teclado. No caso do sistema Windows, caso prefira colar utilizando o teclado, utilize a combinação de teclas **Shift + Insert**.
 
   * [Documentação oficial GitHub - Gerenciando repositórios remotos](https://docs.github.com/en/get-started/git-basics/managing-remote-repositories)
   * [Documentação oficial GitHub - Criar e deletar branchs](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository)
