@@ -155,6 +155,12 @@ git init
 
 Cria um novo repositório Git vazio dentro da pasta atual. Isso inicializa o rastreamento de versões para o seu projeto.
 
+**IMPORTANTE:** Caso ocorra qualquer tipo de erro ou alguma configuração incorreta gere problemas, é possível redefinir o Git no diretório local. Para isso, basta excluir a pasta oculta **.git**, que é criada automaticamente após a execução do comando `git init`.
+
+Essa pasta não é exibida por padrão, sendo necessário habilitar a visualização de arquivos ocultos no sistema para localizá-la. A exclusão pode ser feita manualmente, como qualquer outro arquivo ou pasta.
+
+Após a remoção, o repositório Git será completamente desvinculado do diretório. Para iniciar uma nova configuração, recomenda-se fechar o terminal (por exemplo, o Git Bash), reabri-lo e executar novamente o comando `git init`, seguindo então com os passos de configuração desde o início.
+
 ### **Verificando Status (`git status`)**
 
 ```bash
@@ -171,7 +177,12 @@ git remote add origin <link do repositório no GitHub>
 
 Associa o seu repositório local a um repositório remoto no GitHub. O termo **`origin`** é um apelido padrão usado para se referir ao repositório remoto principal. Embora você possa usar outro nome no lugar de `origin`, é uma convenção comum e recomendada. Se você tiver múltiplos repositórios remotos (por exemplo, um para produção e outro para desenvolvimento), poderá dar nomes diferentes a eles.
 
-  * [Documentação oficial GitHub - Adicionar remoto](https://www.google.com/search?q=https://docs.github.com/pt/desktop/contributing-and-collaborating-using-github-desktop/managing-branches/adding-and-removing-a-remote-repository)
+**IMPORTANTE:** Verifique se o link utilizado no comando é **exatamente** o mesmo do repositório desejado. Caso haja qualquer diferença, corrija o link para que corresponda integralmente ao endereço correto do repositório.
+
+**IMPORTANTE:** Na maioria dos sistemas operacionais, recomenda-se colar o link no terminal Git Bash utilizando o **mouse**, e não o teclado. No caso do sistema Windows, caso prefira colar utilizando o teclado, utilize a combinação de teclas **Ctrl + Shift + Insert**.
+
+  * [Documentação oficial GitHub - Gerenciando repositórios remotos](https://docs.github.com/en/get-started/git-basics/managing-remote-repositories)
+  * [Documentação oficial GitHub - Criar e deletar branchs](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository)
 
 -----
 
